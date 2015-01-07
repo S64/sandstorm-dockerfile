@@ -15,7 +15,7 @@ RUN apt-get update -y
 
 RUN apt-get install -y clang-3.5 lldb-3.5
 RUN apt-get install -y supervisor
-RUN apt-get install -y capnproto
+RUN apt-get install -y capnproto libcapnp-dev
 
 RUN mkdir --verbose --parents /opt/from_dockerfile
 ADD src/ /opt/from_dockerfile/
