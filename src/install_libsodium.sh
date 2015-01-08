@@ -1,6 +1,4 @@
 #!/bin/bash
-source /opt/from_dockerfile/env.sh
-
 mkdir --verbose --parents ~/src/libsodium
 pushd ~/src/libsodium
 
