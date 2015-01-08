@@ -1,6 +1,5 @@
 #!/bin/bash
-export CXX="clang++"
-export CC="clang"
+source /opt/from_dockerfile/env.sh
 
 while [ ! -d ~/sandstorm ]
 do
